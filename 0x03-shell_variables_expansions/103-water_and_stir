@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "Result: %s\n" "$bestchol" | $(echo "obase=$result_base; $result_dec" | $(($water_dec + $stir_dec)) | $((echo "ibase=$stir_base; $STIR" ,$((echo "ibase=$water_base; $WATER" ))
+printf "Result: %s\n" "$bestchol" | $(echo "obase=$result_base, $result_dec") | $(($water_dec + $stir_dec)) | $((echo "ibase=$stir_base,  $STIR" ,$((echo "ibase=$water_base , $WATER" ))
